@@ -1,7 +1,7 @@
 {
   "name": "tournament-companion",
   "version": "0.1.0",
-  "description": "",
+  "description": "Desktop app for running a tournament and driving a TV display, built with Tauri and SvelteKit.",
   "type": "module",
   "scripts": {
     "dev": "vite dev",
@@ -13,17 +13,19 @@
   },
   "license": "MIT",
   "dependencies": {
-    "@tauri-apps/api": "^2",
-    "@tauri-apps/plugin-opener": "^2"
+    "@tauri-apps/api": "^2"
   },
   "devDependencies": {
     "@sveltejs/adapter-static": "^3.0.10",
     "@sveltejs/kit": "^2.65.1",
     "@sveltejs/vite-plugin-svelte": "^7.1.2",
+    "@tailwindcss/vite": "^4.1.14",
+    "@tauri-apps/cli": "^2",
     "svelte": "^5.56.3",
     "svelte-check": "^4.6.0",
+    "tailwindcss": "^4.1.14",
     "typescript": "~6.0.3",
-    "vite": "^8.0.16",
-    "@tauri-apps/cli": "^2"
-  }
+    "vite": "^8.0.16"
+  },
+  "packageManager": "pnpm@11.9.0"
 }
